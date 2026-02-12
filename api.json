@@ -1,0 +1,339 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/futakuchi-onna",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "futakuchi-onna",
+    "name": "Futakuchi-onna",
+    "aliases": [
+      {
+        "name": "Futakuchi-onago",
+        "language": "Japanese",
+        "meaning": "Two-mouthed woman"
+      },
+      {
+        "name": "Futakuchi",
+        "language": "Japanese",
+        "meaning": "Shortened form"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Japanese Yokai",
+    "tags": [
+      "yokai",
+      "japanese-folklore",
+      "curse",
+      "transformation",
+      "domestic-horror",
+      "punishment",
+      "cautionary-tale"
+    ],
+    "status": "traditional_folklore",
+    "description": {
+      "summary": "A woman cursed with a second mouth on the back of her head that demands constant feeding. The second mouth can speak, scream, and manipulate the woman's hair like tentacles to feed itself, creating a horrifying domestic nightmare.",
+      "full": "Futakuchi-onna (二口女, 'two-mouthed woman') is a Japanese yokai depicting a woman with a normal appearance from the front but possessing a second mouth on the back of her skull, hidden beneath her hair. This second mouth has teeth, lips, and the ability to speak—often screaming demands for food. The hair around the mouth can move independently like tentacles, enabling the mouth to feed itself. The condition typically arises as a curse, most commonly from the story of a stingy stepmother who starved her stepchild to death; the child's vengeful spirit creates the second mouth that consumes twice as much food, punishing the stepmother's miserliness. Alternatively, some versions present futakuchi-onna as born yokai or women cursed for their own stinginess. The yokai embodies themes of hidden hunger, punishment for cruelty, and domestic horror."
+    },
+    "etymology": {
+      "origin": "From Japanese 'futa' (二, two), 'kuchi' (口, mouth), and 'onna' (女, woman)",
+      "meaning": "Two-mouthed woman",
+      "pronunciation": "foo-tah-koo-chee own-nah"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Yokai",
+      "subtype": "Cursed Human / Transformed Yokai",
+      "variant": "Japanese Traditional"
+    },
+    "related_phenomena": [
+      {
+        "id": "kuchisake-onna",
+        "name": "Kuchisake-onna",
+        "relationship": "similar",
+        "description": "Slit-mouthed woman urban legend"
+      },
+      {
+        "id": "rokurokubi",
+        "name": "Rokurokubi",
+        "relationship": "yokai_category",
+        "description": "Women with extending necks"
+      },
+      {
+        "id": "onibaba",
+        "name": "Onibaba",
+        "relationship": "yokai_category",
+        "description": "Demon hag yokai"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "front_appearance": "Normal human woman, often described as attractive or ordinary",
+      "back_appearance": "Second mouth located on back of skull under hair",
+      "features": [
+        {
+          "feature": "Primary face",
+          "description": "Normal human appearance, no visible abnormality from front",
+          "frequency": "always"
+        },
+        {
+          "feature": "Second mouth",
+          "description": "Fully formed mouth on back of head with teeth, lips, tongue",
+          "frequency": "always"
+        },
+        {
+          "feature": "Animated hair",
+          "description": "Hair around second mouth moves like tentacles or snakes",
+          "frequency": "common"
+        },
+        {
+          "feature": "Skull opening",
+          "description": "Actual opening in skull where mouth is located",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Otherwise normal human woman with supernatural additional mouth"
+    },
+    "abilities": [
+      {
+        "ability": "Hair manipulation",
+        "description": "Hair around second mouth acts as prehensile tentacles to grasp food",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Second mouth speech",
+        "description": "The back mouth can speak independently, usually to demand food or scream",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Increased appetite",
+        "description": "Must consume food for both mouths—roughly double normal intake",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Threats and curses",
+        "description": "Second mouth can threaten, curse, or emotionally torment the woman",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "second_mouth_behavior": [
+        "Constantly demands food",
+        "Screams and shrieks when hungry",
+        "Threatens the woman if not fed",
+        "Uses hair to snatch food independently",
+        "Causes intense pain (described as headaches or skull-splitting agony)"
+      ],
+      "woman_behavior": [
+        "Attempts to hide the second mouth",
+        "Must acquire twice the normal food",
+        "Suffers constant torment",
+        "Often isolated due to curse"
+      ]
+    }
+  },
+
+  "origins": {
+    "curse_variations": [
+      {
+        "version": "Starved stepchild",
+        "description": "Most common version: Stingy stepmother remarries to save money on food, starves stepchild to death. Child's vengeful spirit creates second mouth that eats twice as much, punishing the stepmother.",
+        "moral": "Punishment for cruelty and stinginess"
+      },
+      {
+        "version": "Miserly woman",
+        "description": "Woman who never fed anyone or was excessively stingy with food is cursed with ravenous second mouth",
+        "moral": "Punishment for lack of generosity"
+      },
+      {
+        "version": "Yokai birth",
+        "description": "Some versions present futakuchi-onna as born yokai, not cursed humans",
+        "moral": "Natural supernatural occurrence"
+      },
+      {
+        "version": "Cursed for eating habits",
+        "description": "Woman who ate secretly or gluttonously is cursed with visible second mouth",
+        "moral": "Punishment for deception or gluttony"
+      }
+    ],
+    "curse_mechanics": {
+      "trigger": "Cruelty, stinginess, or gluttony",
+      "manifestation": "Second mouth appears on back of skull",
+      "permanence": "Usually permanent curse",
+      "removal": "Rarely described; sometimes requires atonement or exorcism"
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Japanese folklore tradition, particularly Edo period tales",
+      "continents": ["Asia"],
+      "countries": ["Japan"],
+      "regions": [
+        "Throughout Japan, particularly in regional folk tales"
+      ]
+    },
+    "temporal": {
+      "origins": {
+        "period": "Edo period (1603-1868)",
+        "development": "Established in kaidan (ghost story) traditions"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Edo period kaidan (怪談, ghost stories), cautionary tales about domestic virtues",
+      "earliest_accounts": "Edo period folktales and oral traditions",
+      "folklore_connections": "Part of broader cautionary tale tradition in Japanese folklore"
+    },
+    "timeline": [
+      {
+        "date": "1603-1868",
+        "period": "Edo Period",
+        "event": "Futakuchi-onna stories circulate",
+        "significance": "Becomes established yokai in folk tradition"
+      },
+      {
+        "date": "Modern era",
+        "event": "Featured in yokai compilations and popular media",
+        "significance": "Remains popular in horror manga and anime"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "themes": [
+        "Hidden sins made manifest",
+        "Punishment for cruelty to children",
+        "Consequences of stinginess",
+        "Domestic horror",
+        "Appearance vs. reality"
+      ],
+      "moral_lessons": [
+        "Feed the hungry, especially children in your care",
+        "Generosity is a virtue",
+        "Cruelty to stepchildren brings supernatural punishment",
+        "Hidden evil will be revealed"
+      ]
+    },
+    "symbolism": {
+      "representations": [
+        "Hidden hunger (literal and metaphorical)",
+        "Punishment fitting the crime (starvation → endless hunger)",
+        "Stepfamily tensions in Japanese society",
+        "Female domestic suffering",
+        "Duality and hidden nature"
+      ]
+    },
+    "indigenous": {
+      "cultural_sensitivity": "⚠️ IMPORTANT: Futakuchi-onna stories reflect historical attitudes toward stepfamilies, women, and domestic roles in feudal Japan. Approach with cultural-historical context."
+    },
+    "popular_culture": {
+      "manga": [
+        "Junji Ito horror manga",
+        "Various yokai manga",
+        "Horror anthology series"
+      ],
+      "anime": [
+        "Nurarihyon no Mago",
+        "GeGeGe no Kitaro",
+        "Various horror anime"
+      ],
+      "games": [
+        "Yo-kai Watch series",
+        "Various Japanese horror games",
+        "RPG games featuring yokai"
+      ],
+      "influence": "Popular in Japanese horror (J-horror) for its visceral body horror elements"
+    }
+  },
+
+  "variations": {
+    "regional": [
+      {
+        "region": "Various regions",
+        "variation": "Specific details of how second mouth feeds, speaks, or torments vary by telling"
+      }
+    ],
+    "modern_interpretations": [
+      {
+        "interpretation": "Psychological horror",
+        "description": "Modern retellings emphasize psychological torment and body horror aspects"
+      },
+      {
+        "interpretation": "Feminist readings",
+        "description": "Contemporary analysis sees themes of female hunger, suppression, and domestic oppression"
+      }
+    ]
+  },
+
+  "comparison": {
+    "similar_yokai": [
+      {
+        "name": "Kuchisake-onna",
+        "similarity": "Both involve mouths as source of horror",
+        "difference": "Kuchisake-onna has slit mouth, is urban legend; futakuchi-onna has second mouth, is traditional folklore"
+      },
+      {
+        "name": "Rokurokubi",
+        "similarity": "Both appear as normal women with hidden yokai nature",
+        "difference": "Rokurokubi have extending necks, different curse origin"
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "foster-2015",
+      "type": "book",
+      "title": "The Book of Yokai: Mysterious Creatures of Japanese Folklore",
+      "authors": ["Michael Dylan Foster"],
+      "publication": "University of California Press",
+      "date": "2015",
+      "isbn": "978-0520271029"
+    },
+    {
+      "id": "meyer-2015",
+      "type": "book",
+      "title": "The Night Parade of One Hundred Demons: A Field Guide to Japanese Yokai",
+      "authors": ["Matthew Meyer"],
+      "publication": "Self-published",
+      "date": "2015"
+    },
+    {
+      "id": "davisson-2015",
+      "type": "book",
+      "title": "Yurei: The Japanese Ghost",
+      "authors": ["Zack Davisson"],
+      "publication": "Chin Music Press",
+      "date": "2015",
+      "isbn": "978-1634059008"
+    }
+  ]
+}
